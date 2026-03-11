@@ -2,39 +2,6 @@
 
 Full-stack task management and analytics platform.
 
-## Quick Start (No Setup Required)
-
-**No PostgreSQL or Redis needed.** Uses SQLite and in-memory cache.
-
-> 📄 **Детални инструкции:** види [START.md](START.md)
-
-### Option 1: Run everything (два терминали)
-
-**Терминал 1 – Backend:**
-```powershell
-cd "C:\Users\anaza\OneDrive\Десктоп\TaskFlow\TaskFlow.API"
-dotnet run
-```
-
-**Терминал 2 – Frontend:**
-```powershell
-cd "C:\Users\anaza\OneDrive\Десктоп\TaskFlow\taskflow-frontend"
-npm install
-npm run dev
-```
-
-Потоа отвори **http://localhost:5173**
-
-### Option 2: Windows batch file
-
-```bash
-run.bat
-```
-
-Then open **http://localhost:5173** in your browser.
-
----
-
 ## What You'll See
 
 - **http://localhost:5173** – React app (Login, Dashboard, Projects)
